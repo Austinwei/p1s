@@ -1,0 +1,88 @@
+.img1{
+    width:80%;
+    margin:0 auto;
+}
+.img1 a img{
+    width:100%;
+}
+.product{
+    width:80%;
+    margin:0 auto;
+    margin-top:50px;
+}
+.product h2{
+    color:#666666;
+    padding:5px;
+}
+.F1,.F2,.F3{
+    display:flex;
+    flex-wrap:wrap;
+}
+.F1>div,.F2>div,.F3>div{
+    background-color:#ffeeee;
+    margin:5px;
+    width:24.1%;height:350px;
+    position: relative;
+}
+.F1>div>a img,.F2>div>a img,.F3>div>a img{
+    width:75%;
+    position: absolute;
+    top:4%;
+    left:13%;
+    transition:.5s
+}
+.F1>div>a img:hover,.F2>div>a img:hover,.F3>div>a img:hover{
+    transform:translateY(-5px);
+    opacity:0.9;
+}
+.F1>div>div,.F2>div>div,.F3>div>div{
+    position: absolute;
+    bottom:3%;
+    left:13%;
+}
+.F1>div>div>p,.F2>div>div>p,.F3>div>div>p{
+    padding:3px;
+    font-size:21.5px;
+    font-family:"黑体"
+}
+/*------轮播图------*/
+.carousel_div{
+    width:100%;
+    height:402px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel_ul{
+    list-style:none;
+    position:absolute;
+    left:0px;
+    width:7590px;
+}
+.carousel_ul li{
+    float: left;
+}
+.carousel_ul img{
+    width:1518px;
+}
+#carousel_button{
+    list-style:none;
+    display:flex;
+    align-items: center;
+    position:absolute;
+    left:700px;top:515px;
+}
+#carousel_button li{
+    margin-left:10px;
+}
+#carousel_button li{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    background-color: #ffffff;
+    border:0;
+    border-radius:50%;
+}
+#carousel_button li.thiscolor{
+    border:3px solid #faa
+}
+

@@ -1,0 +1,32 @@
+*{margin:0;padding:0;}
+.my_bg{
+    background-color: #131313;
+}
+.my_bg2{
+    background-color:#222;
+}
+.my_font{
+    color: #f8f8f8;
+    font-family:"黑体";
+}
+.my_lg_font{
+    font-size:20px;
+}
+.my_md_font{
+    font-size:15px;
+}
+.my_sm_font{
+    font-size:10px;
+}
+
+#arrow{
+    color:#e8e8e8;
+}
+iframe{
+    vertical-align:bottom;
+}
+footer iframe{
+    width:100%;
+    height:471px;
+}
+/**/

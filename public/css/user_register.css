@@ -1,0 +1,57 @@
+.d1{
+    height:700px;
+    position: relative;
+}
+.img1{width:100%;height:100%}
+.d2{
+    background-color:rgba(0,0,0,0.4);
+    position:absolute;
+    top:22%;left:26%;
+    width:47%;height:72%;
+    border-radius:5px;
+}
+td a{
+    text-decoration:none;
+}
+tr:first-child>td:nth-child(2) img{
+    width:40px;
+    margin-top:10px; 
+}
+td h3{text-align:center}
+tr>td:first-child{
+    text-align: right;
+}
+td{padding:12px}
+tr>td:nth-child(3){
+    width:33%
+}
+td input{
+    width:100%;height:26px;
+    padding-left:10px;
+    border:none;
+    background:rgba(0,0,0,0.7);
+    font-size:13px;
+    color:#f8f8f8;
+    font-family:"黑体";
+}
+td select{
+    background:rgba(0,0,0,0.7);
+    color:#A8A8A8;
+    border:none;
+    font-family:"黑体";
+}
+.btn{
+    padding-right:0;
+    padding-bottom:20px;
+}
+.btn a{
+    display:block;
+    height:30px;
+    background:linear-gradient(to bottom,#545454 0%,#42426f 100%);
+    text-align:center;
+    line-height:28px;
+}
+#unameMSG,#upwd1MSG,#upwd2MSG,#phoneMSG,#emailMSG{
+    font-family:"黑体";
+    font-weight:bold;
+}

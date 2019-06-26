@@ -1,0 +1,176 @@
+.detail{
+    display:flex;
+    flex-flow:nowrap;
+}
+.detailLeft{
+    margin-top:10px;
+    width:55%;
+    margin-left:3%;
+}
+.detailLeft>img{
+    width:90%;
+}
+.detailRight{
+    width:40%;
+}
+.banner{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+.ul_div{
+    width:586.84px;
+    overflow: hidden;
+}
+/*移动的ul宽度必须设置*/
+.ul_banner{
+    margin-left:0px;
+    width:1320.39px;
+    transition: .5s;
+    list-style:none
+}
+.ul_banner>li{
+    float: left;
+    width:146.71px;
+}
+.ul_banner>li>img{
+    padding:8px;
+    width:138.71px;
+}
+.banner button{
+    margin:10px;height:100px;
+    width:40px;
+    background-color: #e8e8e8;
+    border:none;
+    outline:none;
+    border-radius:4px;
+}
+.mirror{
+    display:flex;
+    position: relative;
+    height:650px;
+}
+.mirror_img{
+    width:30%;
+}
+.mirror_font{
+    width:70%;
+    padding:40px;
+    font-size:14px;
+    color:#666666
+}
+.mirror_font>span:nth-child(1){
+    font-size:30px;
+}
+.mirror_img>img{
+    width:200px;
+    height:200px;
+    position: absolute;
+}
+#mark{
+    position: absolute;
+    width:40px;height:40px;
+    background-color:#e8e8e8;
+    display:none;
+    opacity:.5;
+}
+#supermark{
+    width:200px;
+    height:200px;
+    position: absolute;
+}
+#lg_img{
+    width:500px;
+    height:500px;
+    position: absolute;
+    left:200px;
+    background:url(../img/p_detail/6/udmsc-01_l_1.jpg);
+    display:none;
+    z-index:1000;
+}
+/*右*/
+.detailRight{
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:100px;
+    border:1px solid #808080;
+    height:1000px;
+}
+.font1{
+    padding:10px;
+}
+.font1>p{
+    margin-bottom:20px;
+    font-family:"黑体"
+}
+.font1>p:nth-child(1){
+    color: #808080;
+}
+.font1>p:nth-child(2){
+    color: #606060;
+    font-size:40px
+}
+.font1>p:nth-child(3){
+    color: red;
+    text-align: center
+}
+.font1>p:nth-child(4){
+    color: #000000;
+    text-align: center;
+    font-size:40px
+}
+.pay{
+    border-top:1px solid #808080;
+    border-bottom:1px solid #808080;
+    display:flex;
+    align-items: center;
+    justify-content: center
+}
+.pay>img{
+    width:15%;
+    line-height:10px;
+}
+.attention{
+    text-align: center;
+    font-family:"黑体"
+}
+.font2{
+    margin:20px;
+    border:1px solid #808080;
+}
+.font2>ul{
+    padding:25px;
+}
+.font2>p{
+    background-color:#dee4e7;
+    padding:25px;
+    text-align: right;
+    font-weight:bold;
+}
+.font2>ul>li{
+    margin:20px 15px 20px 15px;
+    color: #808080;
+}
+.font3>p{
+    padding:10px;
+}
+.font4{
+    text-align:center;
+    margin:10px;
+}
+.font5{
+    padding:25px;
+    font-size:10px;
+    color: #808080;
+}
+.font_btn{
+    width:90%;height:40px;
+    background-color: #e8e8e8;
+    outline:none;
+    font-size:15px
+}
+
+
+

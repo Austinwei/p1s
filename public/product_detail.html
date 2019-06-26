@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/product_detail.css">
+    <title>详情页</title>
+</head>
+<body>
+    <header>
+        <div class="my_bg row1">
+            <ul class="row1_left">
+                <li><a class="my_font" href="#">♔</a></li>
+                <li><a class="my_font" href="#">♕</a></li>
+                <li><a class="my_font" href="#">♖</a></li>
+                <li><a class="my_font" href="#">♗</a></li>
+                <li>
+                    <a class="my_font my_sm_font" href="#">
+                    🌍 If you live in America, click here.
+                    </a>
+                </li>
+            </ul>
+            <ul class="row1_right">
+                <li><a class="my_font my_md_font" href="#">愿望单</a></li>
+                <li><a class="my_font my_md_font" href="#">我的账户</a></li>
+                <li><a class="my_font my_md_font" href="user_register.html">创建个人账户</a></li>
+                <li><a class="my_font my_md_font" href="#">登陆</a></li>
+                <li><a class="my_font" href="#"><img src="img/shop_car.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="my_bg row2">
+            <div class="row2_left">
+                <img id="logo" src="img/logo.jpg" alt="">
+            </div>
+            <ul class="row2_right">
+                <li><a href="#" class="my_font my_lg_font">相关新闻</a></li>
+                <li><a data-click="tab" href="javascript:;" data-div="content1" class="my_font my_lg_font">品牌</a></li>
+                <li><a data-click="tab" href="javascript:;" data-div="content2" class="my_font my_lg_font">分类</a></li>
+                <li><a href="#" class="my_font my_lg_font">特征</a></li>
+                <li>
+                    <a href="#" id="mirror">
+                        <img src="img/mirror.PNG" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="content1" class="cont">
+                <img src="img/menu_brands.jpg" alt="">
+                <ul>
+                <li><a href="javascript:;">DC</a></li>
+                <li><a href="javascript:;">Batman v Superman</a></li>
+                <li><a href="javascript:;">Batman: Arkham Knight</a></li>
+                <li><a href="javascript:;">Batman: Arkham Origins</a></li>
+                <li><a href="javascript:;">Batman: The Dark Knight Returns</a></li>
+                <li><a href="javascript:;">Superman</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">Video Games</a></li>
+                <li><a href="javascript:;">Kojima Productions</a></li>
+                <li><a href="javascript:;">The Witcher3</a></li>
+                <li><a href="javascript:;">Bloodborne</a></li>
+                <li><a href="javascript:;">WarHammer 40000</a></li>
+                <li><a href="javascript:;">MARVEL</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">Transformers Series</a></li>
+                <li><a href="javascript:;">Transformers</a></li>
+                <li><a href="javascript:;">Revenge of the Fallen</a></li>
+                <li><a href="javascript:;">Dark of the Moon</a></li>
+                <li><a href="javascript:;">Age of Extinction</a></li>
+                <li><a href="javascript:;">The Last Knight</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">Teenage Mutant Ninja Turtles</a></li>
+                <li><a href="javascript:;">Beast Wars</a></li>
+                <li><a href="javascript:;">Robotech Saga</a></li>
+                <li><a href="javascript:;">Suicide Squad</a></li>
+                <li><a href="javascript:;">Justice League Film</a></li>
+                <li><a href="javascript:;">G.I. Joe</a></li>
+                </ul>
+            </div>
+            <div id="content2" class="cont">
+                <img src="img/menu_categories.jpg" alt="">
+                <ul>
+                <li><a href="javascript:;">DC</a></li>
+                <li><a href="javascript:;">Batman v Superman</a></li>
+                <li><a href="javascript:;">Batman: Arkham Knight</a></li>
+                <li><a href="javascript:;">Batman: Arkham Origins</a></li>
+                <li><a href="javascript:;">Batman: The Dark Knight Returns</a></li>
+                <li><a href="javascript:;">Superman</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">Video Games</a></li>
+                <li><a href="javascript:;">Kojima Productions</a></li>
+                <li><a href="javascript:;">The Witcher3</a></li>
+                <li><a href="javascript:;">Bloodborne</a></li>
+                <li><a href="javascript:;">WarHammer 40000</a></li>
+                <li><a href="javascript:;">MARVEL</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">Transformers Series</a></li>
+                <li><a href="javascript:;">Transformers</a></li>
+                <li><a href="javascript:;">Revenge of the Fallen</a></li>
+                <li><a href="javascript:;">Dark of the Moon</a></li>
+                <li><a href="javascript:;">Age of Extinction</a></li>
+                <li><a href="javascript:;">The Last Knight</a></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <div class="detail">
+        <div class="detailLeft">
+            <img src="img/p_detail/6/md/udmsc-01_a01_1.jpg" id="img_md" alt="">
+            <div class="banner">
+                <!--左按钮-->
+                <button disabled id="btn_prev"><img src="img/disabled-prev.png" data-btn="img/hover-prev.png" id="leftIMG" alt=""></button>
+                <div class="ul_div">
+                    <!--移动框-->
+                    <ul class="ul_banner">
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a01_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a01_1.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a02_height_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a02_height_1 (1).jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a03_ex.jpg" data-md="img/p_detail/6/md/udmsc-01_a03_ex.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a04_press_ex.jpg" data-md="img/p_detail/6/md/udmsc-01_a04_press_ex.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a05_fix_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a05_fix_1.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a06_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a06_1.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a07_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a07_1.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a08_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a08_1.jpg" alt=""></li>
+                        <li><img src="img/p_detail/6/sm/udmsc-01_a09_1.jpg" data-md="img/p_detail/6/md/udmsc-01_a09_1.jpg" alt=""></li>                
+                    </ul>
+                </div>
+                <!--右按钮-->
+                <button id="btn_next"><img id="rightIMG" src="img/hover-next.png" data-btn="img/disabled-next.png" alt=""></button>
+            </div>
+            <!--放大镜-->
+            <div class="mirror">
+                <div class="mirror_img">
+                    <img src="img/p_detail/6/udmsc-01_l_1.jpg" alt="">
+                    <div id="mark"></div>
+                    <div id="supermark"></div>
+                    <div id="lg_img"></div>
+                </div>
+                <div class="mirror_font">
+                    <span>Descriptions</span><br><br>
+&nbsp;&nbsp;<i>"Raise thy sword by the light and head to the place where the sword's light gathers..... There, thou shalt find the colossi thou art to defeat.... Now, be on thy way."</i><br><br>
+
+&nbsp;&nbsp;Prime 1 Studio is proud to announce the Shadow of the Colossus, The First Colossus Statue! “Shadow of the Colossus“ has been released in 2005 for the PlayStation 2. In 2018, the remake of this extraordinary game has been made for the PlayStation 4. The giant hairy body of the First Colossus is certainly breathtaking.<br><br> 
+
+&nbsp;&nbsp;The statue is an amazing recreation of Wander’s lonesome fight against the First Colossus, also known as Valus, in the center of the Forbidden Lands. To defeat the Colossus, Wander require to find the weak point which is marked by a Magic Sigils glowing symbols on the body of the colossus. The sigils are always found on a part of the colossus that has fur. We recreated a very realistic and stunning representation of Wander who is about to deliver the final blow to the First Colossus.<br><br> 
+
+&nbsp;&nbsp;UDMSC-01: The First Colossus is beautifully crafted with impressive details and features LED Light-up function on the First Colossus eyes and the Magic Sigil located on the crest of the head. It comes with two interchangeable crests with and without the Magic Sigil. The Exclusive Edition includes Agro statue, Wander’s horse and sole companion through the Forbidden Lands in Shadow of the Colossus.<br><br> 
+
+&nbsp;&nbsp;A must-have piece for all Shadow of the Colossus fans. 
+                </div>
+            </div>
+
+        </div>
+        <div class="detailRight">
+            <div class="font1">
+                <p id="p_details"></p>
+                <p id="p_name"></p>
+                <p>Limited Edition TBA</p>
+                <p id="p_price"></p>
+                <p class="pay"><span>支付方式：</span><img src="img/pay.jpg"></p>
+            </div>
+            <p class="attention">注意事项</p>
+            <div class="font2">
+                <p>请确认此商品的价格：<span id="p_price1"></span></p>
+                <ul>
+                    <li>We will charge you via PayPal only. Credit Card details will never be asked.</li>
+                    <li>Shipping fee will be calculated at checkout.</li>
+                    <li>Shipping fee is based on product weight and country of delivery.</li>
+                    <li>Customers will require to pay Import Tax and surcharges to carrier (FedEx, UPS, etc.) when shipped</li>
+                    <li>The product(s) will be shipped after all the payments has been settled.</li>
+                    <li>Timezone used in this site is Japan Standard Time (JST).</li>
+                </ul>
+            </div>
+            <div class="font3">
+                <p> 
+                <input type="checkbox"> 
+                    I agree to pay the reservation deposit (<span id="p_price2"></span>) for this order.
+                Note: The reservation deposit is a Non-Refundable Deposit and will not be refunded if require cancellation. Please read the Terms and Conditions for more information.
+                </p>
+            </div>
+            <p class="font4"><button class="font_btn" disabled>购买</button></p>
+            <div class="font5">
+                <p>Notice:</p>
+                <ul>
+                    <li>Prototype samples shown.</li>
+                    <li>Lightning added for effect. Product doesn't have lightning function.</li>
+                    <li>Product details could be subjected to change without further notice.</li>
+                    <li>Product is not available at the moment in Sideshow Collectibles, please see other items.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
+    </footer>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/product_detail.js"></script>
+    <script src="js/header.js"></script>
+
+</body>
+</html>

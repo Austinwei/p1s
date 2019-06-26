@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/user_register.css"/>
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <div class="my_bg row1">
+            <ul class="row1_left">
+                <li><a class="my_font" href="#">♔</a></li>
+                <li><a class="my_font" href="#">♕</a></li>
+                <li><a class="my_font" href="#">♖</a></li>
+                <li><a class="my_font" href="#">♗</a></li>
+                <li>
+                    <a class="my_font my_sm_font" href="#">
+                    🌍 If you live in America, click here.
+                    </a>
+                </li>
+            </ul>
+            <ul class="row1_right">
+                <li><a class="my_font my_md_font" href="#">愿望单</a></li>
+                <li><a class="my_font my_md_font" href="#">我的账户</a></li>
+                <li><a class="my_font my_md_font" href="#">创建个人账户</a></li>
+                <li><a class="my_font my_md_font" href="#">登陆</a></li>
+                <li><a class="my_font" href="#"><img src="img/shop_car.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="my_bg row2">
+            <div class="row2_left">
+                <img id="logo" src="img/logo.jpg" alt="">
+            </div>
+            <ul class="row2_right">
+                <li><a href="#" class="my_font my_lg_font">相关新闻</a></li>
+                <li><a data-click="tab" href="javascript:;" data-div="content1" class="my_font my_lg_font">品牌</a></li>
+                <li><a data-click="tab" href="javascript:;" data-div="content2" class="my_font my_lg_font">分类</a></li>
+                <li><a href="#" class="my_font my_lg_font">特征</a></li>
+                <li>
+                    <a href="#" id="mirror">
+                        <img src="img/mirror.PNG" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="content1" class="cont">
+              <img src="img/menu_brands.jpg" alt="">
+              <ul>
+                <li><a href="javascript:;">DC</a></li>
+                <li><a href="javascript:;">Batman v Superman</a></li>
+                <li><a href="javascript:;">Batman: Arkham Knight</a></li>
+                <li><a href="javascript:;">Batman: Arkham Origins</a></li>
+                <li><a href="javascript:;">Batman: The Dark Knight Returns</a></li>
+                <li><a href="javascript:;">Superman</a></li>
+            </ul>
+            <ul>
+              <li><a href="javascript:;">Video Games</a></li>
+              <li><a href="javascript:;">Kojima Productions</a></li>
+              <li><a href="javascript:;">The Witcher3</a></li>
+              <li><a href="javascript:;">Bloodborne</a></li>
+              <li><a href="javascript:;">WarHammer 40000</a></li>
+              <li><a href="javascript:;">MARVEL</a></li>
+            </ul>
+            <ul>
+              <li><a href="javascript:;">Transformers Series</a></li>
+              <li><a href="javascript:;">Transformers</a></li>
+              <li><a href="javascript:;">Revenge of the Fallen</a></li>
+              <li><a href="javascript:;">Dark of the Moon</a></li>
+              <li><a href="javascript:;">Age of Extinction</a></li>
+              <li><a href="javascript:;">The Last Knight</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">Teenage Mutant Ninja Turtles</a></li>
+                <li><a href="javascript:;">Beast Wars</a></li>
+                <li><a href="javascript:;">Robotech Saga</a></li>
+                <li><a href="javascript:;">Suicide Squad</a></li>
+                <li><a href="javascript:;">Justice League Film</a></li>
+                <li><a href="javascript:;">G.I. Joe</a></li>
+              </ul>
+            </div>
+            <div id="content2" class="cont">
+              <img src="img/menu_categories.jpg" alt="">
+              <ul>
+                <li><a href="javascript:;">DC</a></li>
+                <li><a href="javascript:;">Batman v Superman</a></li>
+                <li><a href="javascript:;">Batman: Arkham Knight</a></li>
+                <li><a href="javascript:;">Batman: Arkham Origins</a></li>
+                <li><a href="javascript:;">Batman: The Dark Knight Returns</a></li>
+                <li><a href="javascript:;">Superman</a></li>
+            </ul>
+            <ul>
+              <li><a href="javascript:;">Video Games</a></li>
+              <li><a href="javascript:;">Kojima Productions</a></li>
+              <li><a href="javascript:;">The Witcher3</a></li>
+              <li><a href="javascript:;">Bloodborne</a></li>
+              <li><a href="javascript:;">WarHammer 40000</a></li>
+              <li><a href="javascript:;">MARVEL</a></li>
+            </ul>
+            <ul>
+              <li><a href="javascript:;">Transformers Series</a></li>
+              <li><a href="javascript:;">Transformers</a></li>
+              <li><a href="javascript:;">Revenge of the Fallen</a></li>
+              <li><a href="javascript:;">Dark of the Moon</a></li>
+              <li><a href="javascript:;">Age of Extinction</a></li>
+              <li><a href="javascript:;">The Last Knight</a></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+    <div class="d1 my_bg">
+        <img class="img1" src="img/galleryshop_banner5.jpg" alt="">
+        <table class="d2">
+            <tr>
+                <td colspan="1"><h3 class="my_font">新用户注册</h3></td>
+                <td colspan="3">
+                    <img id="cn" src="img/china.PNG"alt=""/>
+                </td>
+                <td colspan="2"><h4><a class="my_font" href="#">直接登录</a></h4></td>
+            </tr>
+            <tr>
+                <td colspan="1" class="my_font">用户名：</td>
+                <td colspan="3">
+                    <input id="uname" type="text" placeholder="请输入用户名" onblur="checkUname()"/>
+                </td>
+                <td colspan="2">
+                    <span id="unameMSG"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" class="my_font">登陆密码：</td>
+                <td colspan="3">
+                    <input id="upwd1" type="password" placeholder="请输入密码" onblur="checkUpwd1()"/>
+                </td>
+                <td colspan="2"><span id="upwd1MSG"></span></td>
+            </tr>
+            <tr>
+                <td colspan="1" class="my_font">确认密码：</td>
+                <td colspan="3">
+                    <input id="upwd2" type="password" placeholder="请确认密码" onblur="checkUpwd2()"/>
+                </td>
+                <td colspan="2">
+                    <span id="upwd2MSG"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" class="my_font">用户性别：</td>
+                <td colspan="3">
+                    <select name="" id="sex">
+                        <option value="1">男</option>
+                        <option value="0">女</option>
+                        <option value="2">保密</option>
+                    </select>
+                </td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="1" class="my_font">手机号：</td>
+                <td colspan="3">
+                    <input id="phone" type="text" placeholder="请输入手机号" onblur="checkPhone()"/>
+                </td>
+                <td colspan="2">
+                    <span id="phoneMSG"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" class="my_font">邮箱：</td>
+                <td colspan="3">
+                    <input id="email" type="text" placeholder="请输入邮箱地址" onblur="checkEmail()"/>
+                </td>
+                <td colspan="2">
+                    <span id="emailMSG"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1"></td>
+                <td colspan="3" class="btn">
+                    <a href="#" onclick="register()" class="my_font">提交注册信息</a>
+                </td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
+    </footer>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/user_register.js"></script>
+</body>
+</html>

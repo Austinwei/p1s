@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .d1{
+            position: relative;
+            width:1000px;height:1000px;
+            overflow: hidden;
+        }
+        .banner{
+            list-style:none;
+            display:flex;
+            position:absolute;
+            left:250px;
+            
+            
+            padding:0;
+        }
+
+        .btns{
+            list-style:none;
+            display:flex;
+            position:absolute;
+            top:500px;
+        }
+        .btns a{
+            display:inline-block;
+            width:10px;height:10px;
+            border:1px solid #000;
+            border-radius:50%;
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+    <ul class="banner">
+        <li>
+            <a href="#">
+                <img src="img/banner/banner1.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/banner/banner2.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/banner/banner3.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/banner/banner4.png" alt="">
+            </a>
+        </li>
+    </ul>
+    <ul class="btns">
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    </div>
+    <script>
+        //查询触发事件元素
+        var btns=document.querySelector("ul.btns");
+        var banner=document.querySelector("banner");
+        //绑定事件处理函数
+        btns.onclick=function(e){
+            var a=e.target;
+            if(a.nodeName=="a"){
+                banner.style.left=a.previousElementSibling.length*-1000;
+            }
+        }
+    </script>
+</body>
+</html>
